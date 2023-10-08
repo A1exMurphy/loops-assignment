@@ -60,17 +60,21 @@ for (someStar of stars) {
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
-//let variable = stars[0]
-//const max = 5
-//while(variable < max) {
-//  console.log('a star in the sky', variable); stars [0++];}
+console.table(stars);
+let eachStar = 0
+const max = stars.length
+console.log(eachStar);
+console.log(max);
+while(eachStar < max) {
+  console.log(stars[eachStar]); eachStar ++
+}
 
 //I'm super stumped on how to use an existing array within a while loop
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 let i = 0
-const max = 5
+max = 5
 while(i <= max) {
   console.log('in a while loop', i); i++;
 }
